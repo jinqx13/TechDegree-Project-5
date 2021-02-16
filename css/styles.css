@@ -1,0 +1,9 @@
+/* CSS */
+
+*
+
+
+.grid {
+    display: grid;
+    max-width: 200px;
+}
