@@ -1,9 +1,28 @@
 /* CSS */
 
-*
+* {
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+}
 
+.container {
+    margin: 0 auto;
+}
 
-.grid {
+.photo-gallery {
     display: grid;
-    max-width: 200px;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    align-content: center;
+}
+
+.searchbar {
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
 }
