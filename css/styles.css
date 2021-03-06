@@ -28,6 +28,7 @@ input[type="search"] {
     height: 40px;
     border-color: lightgray;
     margin: 5px;
+    border-radius: 5px;
 }
 
 .searchbar {
