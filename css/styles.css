@@ -19,18 +19,19 @@
 
 .search {
     display: flex;
-    position: relative;
-    margin: 1em auto;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+input[type="search"] {
+    width: 400px;
+    height: 40px;
+    border-color: lightgray;
+    margin: 5px;
 }
 
 .searchbar {
     border: 1px solid black;
     width: 200px;
     height: 30px;
-}
-
-.body-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: d3d3d3;
 }
