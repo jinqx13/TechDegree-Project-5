@@ -11,18 +11,26 @@
 
 .photo-gallery {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 15px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .search {
     display: flex;
     position: relative;
-    align-content: center;
+    margin: 1em auto;
 }
 
 .searchbar {
     border: 1px solid black;
     width: 200px;
     height: 30px;
+}
+
+.body-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: d3d3d3;
 }
